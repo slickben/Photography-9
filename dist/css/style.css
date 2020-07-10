@@ -146,5 +146,9 @@
         color: #ffffff !important;
     }
 
+    .active {
+      background-color: transparent !important;
+    }
+
 
 
