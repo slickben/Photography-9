@@ -1,3 +1,6 @@
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .section-header{
@@ -6,14 +9,14 @@
         width: 100%
     }
     .slider-btn-previous {
-        left: 95px; 
+        left: 140%; 
         top: 150px;
-        width: 7%
+        width: 50%
     }
     .slider-btn-next {
-        right: 95px; 
+        right: 140%; 
         top: 150px;
-        width: 7%
+        width: 50%
     }
     .client-content-text {
         font-size: .7rem
@@ -22,13 +25,15 @@
     .slider-btn-previous-client {
         left: 25px; 
         top: 150px;
-        width: 7%
+        width: 50%
     }
     .slider-btn-next-client {
         right: 25px; 
         top: 150px;
-        width: 7%
+        width: 50%
     }
+
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -61,6 +66,7 @@
         top: 150px;
         
     }
+
 }
 
 
@@ -89,6 +95,7 @@
         top: 150px;
         
     }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

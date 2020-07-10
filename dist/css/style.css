@@ -31,6 +31,18 @@
     --brand-color: #C3083F;
   }
 
+  /* nav */
+
+  .brand-link .brand-image {
+    float: left;
+    line-height: .8;
+    margin-left: .8rem;
+    margin-right: .5rem;
+    margin-top: 0 !important;
+    max-height: 33px;
+    width: auto;
+}
+
   .content-header {
       background-image: url('../images/header-bg-image.png');
       background-position: center;
@@ -49,7 +61,11 @@
 
   .service-overlay {
       background-color: rgba(116, 116, 117, 0.88);
+      min-height: 1024px;
+  }
 
+  .contact-section {
+    min-height: 1024px;
   }
 
   .card-container {
@@ -89,7 +105,7 @@
 
   .client-overlay {
       background-color: rgba(255, 255, 255, 0.86);
-
+      min-height: 1024px;
   }
 
   .client-content-text {
@@ -119,9 +135,16 @@
         padding: 2px 0
     }
 
+    section {
+      min-height: 1024px
+    }
+
     /* form section */
 
     button {
         background-color: #000000 !important;
         color: #ffffff !important;
     }
+
+
+
