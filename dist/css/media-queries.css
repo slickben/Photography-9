@@ -15,6 +15,20 @@
         top: 150px;
         width: 7%
     }
+    .client-content-text {
+        font-size: .7rem
+    }
+
+    .slider-btn-previous-client {
+        left: 25px; 
+        top: 150px;
+        width: 7%
+    }
+    .slider-btn-next-client {
+        right: 25px; 
+        top: 150px;
+        width: 7%
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -36,7 +50,20 @@
         right: 53px; 
         top: 140px;
     }
+
+    .slider-btn-previous-client {
+        left: 9px; 
+        top: 150px;
+        
+    }
+    .slider-btn-next-client {
+        right: 9px; 
+        top: 150px;
+        
+    }
 }
+
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -48,8 +75,19 @@
         top: 140px;
     }
     .slider-btn-next {
-        right: 58px; 
+        right: 8px; 
         top: 140px;
+    }
+
+    .slider-btn-previous-client {
+        left: 9px; 
+        top: 150px;
+        
+    }
+    .slider-btn-next-client {
+        right: 9px; 
+        top: 150px;
+        
     }
 }
 

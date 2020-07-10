@@ -58,6 +58,10 @@
     background-color: #282828
   }
 
+  .card-container:hover{
+    transform: scale(1.3);
+  }
+
   .service-title-box::after {
     content: "";
     display: block;
